@@ -1,3 +1,4 @@
+import java.lang.*;
 public class numberpatt {
     public static void main(String[] args) {
         int i,j;
@@ -35,6 +36,18 @@ int k;
           System.out.print(i+" ");
             System.out.println();
     }
+
+
+    for(i=1;i<=4;i++){
+        for(j=4;j>=i;j--)
+        System.out.print(" ");
+        for(k=1;k<=i;k++,count++)
+        System.out.print(count+" ");
+        
+        System.out.println();
+    }
+}
+}
     
 }
 }
